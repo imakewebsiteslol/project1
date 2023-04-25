@@ -1,0 +1,254 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+
+    font-family: 'Poppins, Medium (500)', sans-serif;
+}
+
+/* nav bar do not delete in rage ty */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar>ul>li {
+    margin: 0 15px;
+}
+
+.navbar>ul>li>a {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar>ul>li>a:hover::after {
+    content: '';
+    display: block;
+    width: 65%;
+    height: 2px;
+    margin: 0 auto;
+    bottom: 1px;
+    position: relative;
+    background: black;
+    right: 15%;
+}
+
+.logo-black img {
+    height: 25px;
+    padding: 10px 1px 10px 60px;
+}
+
+.shopping-cart img {
+    height: 30px;
+    /* maybe add padding lol */
+}
+
+/* showcase - PERFECT IS THE ENEMY OF GOOD PERFECT IS THE NEMEY SDJIFSD JKFGSD FSDA */
+
+.showcase {
+    position: relative;
+    height: 90vh;
+}
+
+.showcase-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: black;
+    text-align: left;
+    display: block;
+    width: 17%;
+}
+
+.showcase-heading {
+    font-size: 5rem;
+    display: block;
+    line-height: 1.2;
+    word-spacing: 200em;
+}
+
+.showcase-paragraph {
+    margin-top: 1rem;
+    display: block;
+}
+
+.showcase-img {
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.showcase-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 10%;
+}
+
+/* showcase 2 - attack of the clowns */
+
+
+.showcase2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 200px;
+}
+
+.showcase2>div {
+    max-width: 50vw;
+    padding: 20px 30px 20px 20px;
+    margin: 10px;
+}
+
+.showcase2>div>img {
+    max-width: 20vw;
+}
+
+.showcase2-label {
+    transform: translate(0px, -100px);
+    background-color: white;
+    text-align: left;
+    max-width: max-content;
+    padding: 1px;
+    font-family: 'Poppins, Medium (500)', sans-serif;
+}
+
+.showcase2-label>p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.furniture-img {
+    transform: translate(0px, -60px);
+
+}
+
+/* featured sale aka trash garbage */
+
+.featured-sale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.sale-product {
+    flex-basis: calc(20% - 17.5px);
+    margin-bottom: 35px;
+    border: 1px solid #b5b3b3;
+}
+
+.sale-product>img {
+    max-width: 100%;
+}
+
+.button {
+    padding-top: 25px;
+    padding-bottom: 60px;
+
+}
+
+/* showcase 3 - return of my suicidal ideation */
+
+/* okay i actually dont care anymore i cant do this im not cut out for this i am literally too low iq abnd mentally ill */
+
+.showcase3 {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+.showcase3-item {
+    max-height: 30vh;
+
+}
+
+.showcase3-item>img {
+    max-height: 40vh;
+
+}
+
+#annoying-text1 {
+    position: absolute
+}
+
+#annoying-text2 {
+    position: absolute;
+}
+
+#areyoukiddingme {
+    position: absolute;
+
+}
+
+/* .follow-instagram {
+    
+} */
+
+.instagram-gallery {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    max-width: 50vw;
+}
+
+.gallery-img {
+    max-width: 10vw;
+    padding: 1vw;
+}
+
+.gallery-img>img {
+    max-width: 7vw;
+}
+
+.footer-main {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+.footer-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.footer-block>h3 {
+    margin: 0; 
+}
+
+.footer-block>p {
+    margin: 0; 
+}
+
+  
+.novas {
+    max-width: 20vw;
+  }
