@@ -62,6 +62,29 @@ h3 {
     /* maybe add padding lol */
 }
 
+/* hamburger :DD */
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 4px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu.open {
+    display: block;
+}
+
 /* showcase - PERFECT IS THE ENEMY OF GOOD PERFECT IS THE NEMEY SDJIFSD JKFGSD FSDA */
 
 .showcase {
